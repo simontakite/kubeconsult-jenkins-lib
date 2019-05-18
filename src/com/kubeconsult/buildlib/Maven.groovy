@@ -245,7 +245,7 @@ abstract class Maven implements Serializable {
         return settingsXmlPath
     }
 
-    // Unfortunately, inner classes cannot be accessed from Jenkinsfile.example: unable to resolve class Maven.Repository
+    // Unfortunately, inner classes cannot be accessed from Jenkinsfile: unable to resolve class Maven.Repository
     // So we just use setters... See setDepoymentRepo()
     static abstract class Repository implements Serializable {
 
