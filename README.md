@@ -83,10 +83,10 @@ With Maven this can be done like so:
 * And the ces-build-lib dependency:
     ```XML
     <dependency>
-        <!-- Shared Library used in Jenkins. Including this in maven provides code completion in Jenkinsfile. -->
+        Jenkinsfile.example
         <groupId>com.github.KubeConsult</groupId>
         <artifactId>ces-build-lib</artifactId>
-        <!-- Keep this version in sync with the one used in Jenkinsfile -->
+        Jenkinsfile.example
         <version>888733b</version>
         <!-- Don't ship this dependency with the app -->
         <optional>true</optional>
@@ -732,7 +732,7 @@ For example, ff running on `http(s)://server:port/jenkins`, `server` is returned
 
 
 # Examples
-  * This library is built using itself! See [Jenkinsfile](Jenkinsfile)
+  * This library is built using itself! See [Jenkinsfile](Jenkinsfile.example)
   * [KubeConsulto/cas](https://github.com/KubeConsult/cas)
   * [KubeConsult/command-bus](https://github.com/KubeConsult/command-bus)
   * [KubeConsult/continuous-delivery-slides-example](https://github.com/KubeConsult/continuous-delivery-slides-example/)

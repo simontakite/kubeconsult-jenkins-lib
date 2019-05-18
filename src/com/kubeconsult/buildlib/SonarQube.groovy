@@ -49,7 +49,7 @@ class SonarQube implements Serializable {
      *
      * If there is no webhook or SonarQube does not respond within 2 minutes, the build fails.
      * So make sure to set up a webhook in SonarQube global administration or per project to
-     * {@code <JenkinsInstance>  /sonarqube-webhook/}.
+     * {@code <JenkinsInstance>   /sonarqube-webhook/}.
      * See https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Jenkins
      *
      * If this build is a Pull Request, this method will not wait, because usually PRs are analyzed locally.

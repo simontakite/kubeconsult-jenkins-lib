@@ -27,7 +27,7 @@ class MavenInDocker extends Maven {
     Docker docker
 
     /**
-     * @param script the Jenkinsfile instance ({@code this} in Jenkinsfile)
+     * @param script the Jenkinsfile.example instance ({@code this} in Jenkinsfile.example)
      * @param dockerBaseImageVersion the version of the maven docker image to use, e.g. {@code 3.5.0-jdk-8}
      */
     MavenInDocker(script, String dockerBaseImageVersion) {
